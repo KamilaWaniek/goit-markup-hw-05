@@ -136,6 +136,17 @@ ol {
   transition-timing-function: var(--transition-variable);
 }
 
+.table-of-contents:hover::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  background-size: contain;
+  background-color: var(--active-links-color);
+  border-radius: 2px;
+  display: none;
+  margin-top: 20px;
+}
+
 .header-contacts {
   font-style: normal;
 }
