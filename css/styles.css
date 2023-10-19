@@ -33,6 +33,12 @@
   height: auto;
 }
 
+.is-hidden {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
 /* MAIN PAGE SITE */
 
 /* HEADER SECTION */
