@@ -134,10 +134,12 @@ ol {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--transition-variable);
+  position: relative;
 }
 
 .table-of-contents:hover::after {
   content: "";
+  position: absolute;
   width: 48px;
   height: 4px;
   background-size: contain;
@@ -159,9 +161,7 @@ ol {
   letter-spacing: 0.32px;
   display: inline-block;
   padding: 24px 0;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--transition-variable);
+  transition: background-color 250ms var(--transition-variable);
 }
 
 .table-of-contents:hover,
