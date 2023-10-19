@@ -407,7 +407,7 @@ ol {
   align-items: center;
   justify-content: center;
   color: var(--main-border-color);
-  transition-property: color;
+  transition-property: background-color, color;
   transition-duration: 250ms;
   transition-timing-function: var(--transition-variable);
 }
