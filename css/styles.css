@@ -34,12 +34,6 @@
   height: auto;
 }
 
-.is-hidden {
-  pointer-events: none;
-  visibility: hidden;
-  opacity: 0;
-}
-
 /* MAIN PAGE SITE */
 
 /* HEADER SECTION */
@@ -612,4 +606,20 @@ ol {
   padding: 32px 16px;
   border: 1px solid var(--background-color-2);
   border-top: none;
+}
+
+/* DATA MODAL WINDOW */
+
+.data-modal-body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 408px;
+  height: 584px;
+}
+
+.is-hidden {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
 }
