@@ -645,6 +645,7 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .close-button-icon {
