@@ -645,6 +645,7 @@ ol {
 .modal-close-button:hover,
 .modal-close-button:focus {
   background-color: var(--background-color);
+  border: none;
 }
 
 .close-button-icon {
