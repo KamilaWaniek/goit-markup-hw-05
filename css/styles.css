@@ -612,8 +612,6 @@ ol {
   position: absolute;
   inset: 0;
   background-color: var(--main-page-color-2);
-  translate: 0 100%;
-  transition: translate 250ms var(--transition-variable);
   color: var(--main-text-color-2);
   font-family: Roboto;
   font-size: 16px;
@@ -621,13 +619,14 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  padding: 0 32px;
-  padding-top: 40px;
+  padding: 40 32px;
   opacity: 0.9;
+  transform: translateY(100%);
+  transition: transform 250ms var(--transition-variable);
 }
 
 .company-app-box:hover p {
-  translate: 0;
+  transform: translateY(0%);
 }
 
 /* DATA MODAL WINDOW */
