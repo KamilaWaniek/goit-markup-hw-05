@@ -534,9 +534,9 @@ ol {
   line-height: 1.5em;
   letter-spacing: 0.64px;
   cursor: pointer;
-  transition-property: color, background-color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: var(--transition-variable);
+  transition: color, 250ms var(--transition-variable),
+    background-color 250ms var(--transition-variable),
+    box-shadow 250ms var(--transition-variable);
 }
 
 .categories-layout {
