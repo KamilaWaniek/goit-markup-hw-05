@@ -634,12 +634,21 @@ ol {
 }
 
 .modal-close-button {
+  position: absolute;
   width: 24px;
   height: 24px;
-  fill: var(--background-color-2);
+  top: 24px;
+  right: 24px;
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
-  transform: translate(360px, 32px);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-button-icon {
+  fill: var(--background-color-2);
 }
 
 .is-hidden {
