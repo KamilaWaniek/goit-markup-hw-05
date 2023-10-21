@@ -608,7 +608,7 @@ ol {
   overflow: hidden;
 }
 
-.app-list-wrapper figcaption {
+.app-list-wrapper p {
   position: absolute;
   inset: 0;
   background-color: var(--main-page-color-2);
@@ -626,7 +626,7 @@ ol {
   opacity: 0.9;
 }
 
-.company-app-box:hover figcaption {
+.company-app-box:hover p {
   translate: 0;
 }
 
