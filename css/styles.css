@@ -625,7 +625,8 @@ ol {
   transition: transform 250ms var(--transition-variable);
 }
 
-.company-app-box:hover p {
+.company-app-box:hover p,
+.company-app-box:focus p {
   transform: translateY(0%);
 }
 
