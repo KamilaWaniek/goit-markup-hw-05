@@ -637,6 +637,7 @@ ol {
   top: 24px;
   right: 24px;
   background-color: var(--background-color-2);
+  fill: var(--main-page-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   display: flex;
@@ -651,16 +652,11 @@ ol {
 .modal-close-button:focus {
   background-color: var(--active-links-color);
   border: none;
+  fill: var(--background-color);
 }
 
 .close-button-icon {
-  fill: var(--background-color-2);
   transition: fill 250ms var(--transition-variable);
-}
-
-.close-button-icon:hover,
-.close-button-icon:focus {
-  fill: var(--background-color);
 }
 
 .is-hidden {
