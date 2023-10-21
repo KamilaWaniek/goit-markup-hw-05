@@ -603,6 +603,33 @@ ol {
   border-top: none;
 }
 
+.app-list-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.app-list-wrapper figcaption {
+  position: absolute;
+  inset: 0;
+  background-color: var(--main-page-color-2);
+  translate: 0 100%;
+  transition: translate 250ms var(--transition-variable);
+  color: var(--main-text-color-2);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  padding: 0 32px;
+  padding-top: 40px;
+  opacity: 0.9;
+}
+
+.company-app-box:hover figcaption {
+  translate: 0;
+}
+
 /* DATA MODAL WINDOW */
 
 .data-modal-backdrop {
