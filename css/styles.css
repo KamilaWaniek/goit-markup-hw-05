@@ -114,7 +114,7 @@ ol {
 
 .website-logo {
   font-family: "Raleway", sans-serif;
-  color: var(--main-page-color-2);
+  color: var(--active-links-color);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17em;
@@ -135,7 +135,7 @@ ol {
   position: relative;
 }
 
-.table-of-contents:hover::after {
+.website-logo::after {
   content: "";
   position: absolute;
   width: 48px;
