@@ -421,7 +421,8 @@ ol {
   align-items: center;
   justify-content: center;
   color: var(--main-border-color);
-  transition: color, border-color 250ms var(--transition-variable);
+  transition: color 250ms var(--transition-variable),
+    border-color 250ms var(--transition-variable);
 }
 
 .customers-list-link:hover,
