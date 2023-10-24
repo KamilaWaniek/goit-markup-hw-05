@@ -671,6 +671,7 @@ ol {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
   transition: background-color 250ms var(--transition-variable),
     border 250ms var(--transition-variable);
 }
